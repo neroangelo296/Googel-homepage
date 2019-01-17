@@ -1,9 +1,10 @@
 .other{
     text-align: right;
-    font-family: sans-serif;
+    
     padding-top: 5px; 
 }
 a{
+    font-family: sans-serif;
     color: black;
     padding: 0px 5px;
     font-size: 12px;
@@ -43,16 +44,37 @@ a:hover{
     font-size: 13px;
     font-family: sans-serif;
     font-weight: bold;
-    border: 0px;
+    border: 1px solid transparent;
     margin: 0px 5px;
     padding: 10px 16px;
     background-color: rgba(182, 182, 182, 0.158);
     color: gray;
     
-    transition-duration: 0.004s;
+    transition-duration: 0.020s;
 }
 #button:hover{
-    border: 3px;
-    background-color: ghostwhite;
+    border: 1px solid;
+    border-color: rgb(167, 166, 166);
+    background-color: rgb(194, 193, 193);
     color: black;
+    cursor: pointer;
+}
+.legal{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#location{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 15px 24px;
+    background-color: rgba(182, 182, 182, 0.342);
+    color: rgb(99, 99, 99);
+    border: 1px solid gray;
+}
+#contact{
+    font-size: 13px;
+    padding: 15px 20px;
+    background-color: rgba(182, 182, 182, 0.342);
 }
